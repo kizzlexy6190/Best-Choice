@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 1em sans-serif;
+}
+body{
+    background-color: #faf0e6;
+}
+.shop i{
+    margin-top: 16px;
+    font-size: 17px;
+    border: 1px solid #ffa500;
+    border-radius: 50%; 
+    padding: 10px;
+    background-color: white;
+}
+.staff{
+    border-radius: 15px;
+    background-color:  rgba(243, 200, 196, 0.788);
+    margin: -20px;
+}
+.solution i{
+    border:3px dotted black ;
+    padding: 10px;
+    border-radius: 50%;
+}
+.table{
+    border: 1px solid #ffa500;
+    border-radius: 50px;
+    background-color: #ffa500;
+    padding: 8px;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+#navbarNav{
+    justify-content: end;
+}
+#navbarNav a{
+    position: relative;
+    color: black;
+    z-index: 1;
+}
+#navbarNav a::after{
+    position: absolute;
+    content: '';
+    background-color: gray;
+    height: 10%;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    z-index: -1;
+}
+.code{
+    background-color: #faf0e6;
+}
+#navbarNav a:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+#navbarNav a:hover{
+    color: #ffa500;
+}
+.serve a{
+    text-decoration: none;
+}
+.serve span{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+} 
+.explore{
+    margin-top: 30px;
+}
+.explore span{
+    border: 1px solid #ffa500;
+    border-radius: 25px;
+    background-color: #ffa500;
+    padding: 10px;
+    width: max-content;
+}
+.search{
+    margin-top: 30px;
+}
+.search span{
+    border: 1px solid #ffa500;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 10px;
+}
+.snacks{
+    border: 1px solid #fff;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.makeing{
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    padding: 12px;
+}
+.dish{
+    background-color: white;
+    margin: 19px;
+    padding: 12px;
+    max-width: 180px;
+    border-radius: 50px;
+}
+.dishes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.arrow{
+    display: flex;
+}
+.left i{
+    border: 1px solid  #ffa500;
+    border-radius: 50%;
+    background-color: #faf0e6;
+    padding: 10px;
+}
+.right i{
+    border: 1px solid  #ffa500;
+    border-radius: 50%;
+    background-color: #ffa500;
+    padding: 10px;
+    margin-left: 10px;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+}
+.other i{
+    color: #ffa500;
+}
+.btn{
+    border: 1px solid #ffa500;
+    border-radius: 25px;
+    background-color: #faf0e6;
+}
+.btn-text{
+    border: 1px solid #ffa500;
+    border-radius: 25px;
+    background-color: #ffa500;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+}
+.btn-text1{
+    border: 1px solid #ffa500;
+    border-radius: 25px;
+    background-color: #faf0e6;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+}
+.btn-text:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    margin: 10px;
+    color: #000;
+    background-color: #faf0e6;
+}
+
+.btn-text:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.btn-text1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    margin: 10px;
+    color: #000;
+    background-color: #ffa500;
+}
+
+.btn-text1:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.card{
+    position: relative;
+    color: gray;
+    z-index: 1;
+}
+.card::after{
+    position: absolute;
+    content: '';
+    background-color: #000;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 0;
+    z-index: -1;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    margin: 10px;
+}
+
+.card:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.item{
+    margin-bottom: 50px;
+}
+.pack{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+.pack li{
+    border: 1px solid #ffa500;
+    border-radius: 25px;
+    background-color: #faf0e6;
+    padding: 15px;
+    font-size: 20px;
+}
+.have h4{
+    border: 1px solid #ffa500;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #ffa500;
+    font-size: 20px;
+    width: max-content;
+    margin-top: 40px;
+}
+.have h4:hover{
+    background-color: #000;
+    color: #fff;
+}
+.have span{
+    color: rgba(128, 128, 128, 0.849);
+}
+.have h2{
+    margin-bottom: 40px;
+}
+.fifth{
+    display: flex;
+    justify-content: space-around;
+}
+.customer{
+    display: flex;
+    justify-content: space-between;
+}
+.chefs{
+    display: flex;
+    justify-content: space-between;
+}
+.great img{
+    border: 1px solid none;
+    border-radius: 50%;
+    width: 30%;
+}
+.cool img{
+    border: 1px solid none;
+    border-radius: 50%;
+    width: 30%;
+}
+.happy img{
+    border: 1px solid none;
+    border-radius: 50%;
+    width: 30%;
+}
+.als{
+    margin: -20px;
+}
+.apple{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    background-color: #ffa500;
+    padding: 10px;
+}
+.play{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #ffa500;
+    border-radius: 25px;
+    background-color: #fff;
+    padding: 10px;
+}
+.open{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.next{
+    display: flex;
+    justify-content: space-between;
+}
+.phone button{
+    border: 1px solid #ffa500;
+    border-radius: 50%;
+    background-color: #ffa500;
+    padding: 7px;
+}
+.phone button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.social i{
+    color: #800000;
+    font-size: 12px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 10px;
+}
+.social{
+    margin-top: 20px;
+}
+
+.phone input{
+    border: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.842);
+    background-color: transparent;
+    width: 70%;
+}
+.service li{
+    list-style: none;
+    padding: 10px;
+    color: rgba(100, 99, 99, 0.795);
+}
+.links li{
+    list-style: none;
+    padding: 10px;
+    color: rgba(100, 99, 99, 0.795);
+}
+.abouts li{
+    list-style: none;
+    padding: 10px;
+    color: rgba(100, 99, 99, 0.795);
+}
+.about li{
+    list-style: none;
+    padding: 10px;
+    color: rgba(100, 99, 99, 0.795);
+}
+.help li{
+    list-style: none;
+    padding: 10px;
+    color: rgba(100, 99, 99, 0.795); 
+}
+.clean{
+    border: 1px solid #fff;
+    border-radius: 25px;
+    background-color: #ffa500;
+    padding: 10px;
+    width: max-content;
+}
+
+
+@media screen and (max-width:768px){
+  .makeing{
+    position: absolute;
+    top: 90%;
+  }  
+  .serve span{
+    font-size: 20px;
+    line-height: 1;
+  }
+  .als{
+    margin: 50px;
+}
+.pack{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.pack li{
+    width: 58%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.fifth{
+    display: flex;
+    flex-wrap: wrap;
+}
+.next{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rows{
+    /* display: flex; */
+    margin: auto;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+
+.about{
+    margin: 34px;
+    /* padding: 13px; */
+}
+
+.abouts{
+    padding: 0;
+}
+
+.about h6{
+    font-size: 22px;
+}
+
+.phone input{
+    border: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.842);
+    background-color: transparent;
+    width: 70%;
+}
+
+.about li{
+    list-style: none;
+    margin: 20px;
+    /* padding: 10px; */
+    color: rgba(100, 99, 99, 0.795);
+}
+
+.abouts li{
+    list-style: none;
+    margin: 20px;
+    /* padding: 10px; */
+    color: rgba(100, 99, 99, 0.795);
+}
+
+}
+
